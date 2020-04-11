@@ -1,5 +1,5 @@
 .App {
-  background-image: url(../src/assets/background.png);
+  background-image: url(../src/assets/background.jpg);
   background-position: center center;
   width: 105vw;
   height: 105vh;
@@ -35,7 +35,6 @@
   font-style: normal;
   z-index: 1;
   display: flex;
-  margin-top: 65vh;
   color: white;
   font-size: 35px;
   cursor: pointer;
@@ -72,4 +71,90 @@ body {
 }
 .tooltip {
   font-size: 20px;
+}
+.hamburger {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 4;
+}
+.bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+.navigation{
+  display: hidden;
+  transition: background-color .65s;
+}
+.change .navigation {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0,0,0,.7);
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.links {
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 25vh;
+}
+.discordp, .shopp, .votep {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 23px;
+}
+.discordlink, .shoplink, .votelink {
+  text-decoration: none;
+  text-align: center;
+  height: 45vh;
+  width: 30vw;
+}
+.discordlogo, .shopimg, .keylogo {
+  height: 240px;
+  width: 240px;
+}
+.shoplink:hover, .discordlink:hover, .votelink:hover {
+  background-color: rgba(0,0,0,.4);
+}
+.shoplink, .discordlink, .votelink {
+  opacity: 0%;
+  transition: opacity .65s;
+}
+.change .shoplink, .change .discordlink, .change .votelink {
+  opacity: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .change .navigation {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: 3;
+  }
 }
