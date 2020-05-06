@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a3f35c1e61f41b7b1dd6201eac01d11",
+    "revision": "a1835b2caf68b8a34574b83d2ce90adf",
     "url": "/crawlfactions/index.html"
   },
   {
-    "revision": "537bce83b7bb1ebb5367",
-    "url": "/crawlfactions/static/css/main.27812bdb.chunk.css"
+    "revision": "9dd7cbd5bc3832176d90",
+    "url": "/crawlfactions/static/css/main.02ff893a.chunk.css"
   },
   {
     "revision": "6bf291cc09d30b038d90",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crawlfactions/static/js/2.12a106aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "537bce83b7bb1ebb5367",
+    "revision": "9dd7cbd5bc3832176d90",
     "url": "/crawlfactions/static/js/main.db26945d.chunk.js"
   },
   {
