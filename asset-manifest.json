@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crawlfactions/static/css/main.27812bdb.chunk.css",
+    "main.js": "/crawlfactions/static/js/main.db26945d.chunk.js",
+    "main.js.map": "/crawlfactions/static/js/main.db26945d.chunk.js.map",
+    "runtime-main.js": "/crawlfactions/static/js/runtime-main.eac3fc4a.js",
+    "runtime-main.js.map": "/crawlfactions/static/js/runtime-main.eac3fc4a.js.map",
+    "static/js/2.12a106aa.chunk.js": "/crawlfactions/static/js/2.12a106aa.chunk.js",
+    "static/js/2.12a106aa.chunk.js.map": "/crawlfactions/static/js/2.12a106aa.chunk.js.map",
+    "index.html": "/crawlfactions/index.html",
+    "precache-manifest.5e4053a76e1fb1584425072354679478.js": "/crawlfactions/precache-manifest.5e4053a76e1fb1584425072354679478.js",
+    "service-worker.js": "/crawlfactions/service-worker.js",
+    "static/css/main.27812bdb.chunk.css.map": "/crawlfactions/static/css/main.27812bdb.chunk.css.map",
+    "static/js/2.12a106aa.chunk.js.LICENSE.txt": "/crawlfactions/static/js/2.12a106aa.chunk.js.LICENSE.txt",
+    "static/media/Crawl.png": "/crawlfactions/static/media/Crawl.06fb146f.png",
+    "static/media/App.css": "/crawlfactions/static/media/background.6e02ec1a.jpg",
+    "static/media/shop.png": "/crawlfactions/static/media/shop.b884e30a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eac3fc4a.js",
+    "static/js/2.12a106aa.chunk.js",
+    "static/css/main.27812bdb.chunk.css",
+    "static/js/main.db26945d.chunk.js"
+  ]
+}
